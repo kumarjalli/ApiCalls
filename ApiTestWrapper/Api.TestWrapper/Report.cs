@@ -1,15 +1,24 @@
-﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Api.TestWrapper
 {
+    //public class Report
+    //{
+    //    public string Name { get; set; }
+    //    public IList<KeyValuePair<string, string>> Headers { get; set; }
+    //    public string Body { get; set; }
+    //}
+
     public class Report
     {
         public string Name { get; set; }
-        public IList<Dictionary<string,string>> Headers { get; set; }
+        public List<Header> Headers { get; set; }
         public string Body { get; set; }
+    }
+
+    public class Header
+    {
+        public string Key { get; set; }
+        public string Value { get; set; }
     }
 }
