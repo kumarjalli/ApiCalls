@@ -1,19 +1,23 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ReportsDetails>
   <Report>
-    <Name></Name>
+    <Name>SampleApi</Name>
     <Headers>
-      <Key></Key>
-      <Value></Value>
+      <Header>
+        <Key>Authorization</Key>
+        <Value>77357659-d97d-efr5-4t59-ge4trw43ger5</Value>
+      </Header>
     </Headers>
-    <Body></Body>
+    <Body>"{'Id':'45345685'}"</Body>
   </Report>
   <Report>
-    <Name></Name>
+    <Name>SampleApiNew</Name>
     <Headers>
-      <Key></Key>
-      <Value></Value>
+      <Header>
+        <Key>Authorization</Key>
+        <Value>7357659-d97d-efr5-4t59-ge4trw43ger5</Value>
+      </Header>
     </Headers>
-    <Body></Body>
+    <Body>"{'Id':'46475645'}"</Body>
   </Report>
 </ReportsDetails>
